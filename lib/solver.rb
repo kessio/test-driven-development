@@ -6,5 +6,6 @@ class Solver
     end
 
     def self.reverse(string)
+        raise ArgumentError, "Only accepts a string" if string.class != String
     end
 end

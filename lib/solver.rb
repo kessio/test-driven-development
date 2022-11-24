@@ -11,6 +11,6 @@ class Solver
     end
 
     def self.fizzbuzz(n)
-      
+        raise ArgumentError, "Only accepts an integer" if n.class != Integer
     end
 end

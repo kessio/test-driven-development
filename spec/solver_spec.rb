@@ -30,5 +30,11 @@ describe Solver do
                 expect{Solver.reverse(1)}.to raise_error(ArgumentError)
             end
         end
+
+        context "reverse of 'hello' is 'olleh'" do
+            it "returns 'olleh'" do
+                expect(Solver.reverse("hello")).to eq("olleh")
+            end
+        end
     end
 end

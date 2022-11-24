@@ -24,5 +24,11 @@ describe Solver do
     end
 
     describe ".reverse" do
+
+        context "only accepts a string" do
+            it "raises an error" do
+                expect{Solver.reverse(1)}.to raise_error(ArgumentError)
+            end
+        end
     end
 end

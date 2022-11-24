@@ -39,5 +39,10 @@ describe Solver do
     end
 
     describe ".fizzbuzz" do
+
+        context "takes integer and return a string" do
+            it "returns a string" do
+                expect(Solver.fizzbuzz(1)).to be_a(String)
+            end
     end
 end

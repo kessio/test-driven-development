@@ -51,5 +51,11 @@ describe Solver do
                 expect(Solver.fizzbuzz(3)).to eq("fizz")
             end
         end
+
+        context "number divisible by 5" do
+            it "returns 'buzz'" do
+                expect(Solver.fizzbuzz(5)).to eq("buzz")
+            end
+        end
     end
 end

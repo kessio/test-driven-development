@@ -45,5 +45,11 @@ describe Solver do
                 expect{Solver.fizzbuzz("hello")}.to raise_error(ArgumentError)
             end
         end
+
+        context "number divisible by 3" do
+            it "returns 'fizz'" do
+                expect(Solver.fizzbuzz(3)).to eq("fizz")
+            end
+        end
     end
 end

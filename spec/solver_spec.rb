@@ -22,4 +22,7 @@ describe Solver do
             end
         end
     end
+
+    describe ".reverse" do
+    end
 end

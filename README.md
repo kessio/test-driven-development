@@ -98,28 +98,37 @@ https://github.com/kessio/test-driven-development```
 
 ### Install
 
-Install this project with:
+To Get started in root directory:
 
-```sh
-  cd my-project
-  gem install
 ````
 
-### Usage
+gem install bundler
 
-To run the project, execute the following command:
-
-```sh
-  rails server
 ```
+Then run:
+```
+
+bundle install
+
+`````
 
 ### Run tests
 
 To run tests, run the following command:
+- Run in the terminal:
 
-```sh
-  bin/rails test test/models/article_test.rb
 ```
+gem install rspec
+```
+- Then run rspec spec/solver_spec.rb
+### Usage
+
+To run the project, execute the following command:
+
+````sh
+  rails server
+```
+
 
 <!-- AUTHORS -->
 
@@ -133,10 +142,6 @@ To run tests, run the following command:
 - LinkedIn: [Megha Bodke](https://www.linkedin.com/in/megha-bodke/)
 
 👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 - GitHub:
   [@sharon kessio](https://github.com/kessio)
@@ -191,3 +196,4 @@ This project is [MIT](./LICENSE) licensed.
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+`````

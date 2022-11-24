@@ -13,5 +13,6 @@ class Solver
     def self.fizzbuzz(n)
         raise ArgumentError, "Only accepts an integer" if n.class != Integer
         return "fizz" if n % 3 == 0
+        return "buzz" if n % 5 == 0
     end
 end

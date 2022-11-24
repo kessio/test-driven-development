@@ -57,5 +57,11 @@ describe Solver do
                 expect(Solver.fizzbuzz(5)).to eq("buzz")
             end
         end
+
+        context "number divisible by 3 and 5" do
+            it "returns 'fizzbuzz'" do
+                expect(Solver.fizzbuzz(15)).to eq("fizzbuzz")
+            end
+        end
     end
 end

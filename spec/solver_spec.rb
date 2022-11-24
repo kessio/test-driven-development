@@ -37,4 +37,7 @@ describe Solver do
             end
         end
     end
+
+    describe ".fizzbuzz" do
+    end
 end

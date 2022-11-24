@@ -92,9 +92,10 @@ Example command:
 
 Clone this repository to your desired folder:
 
-````sh
+```sh
   cd my-folder
-https://github.com/kessio/test-driven-development```
+https://github.com/kessio/test-driven-development
+```
 
 ### Install
 
@@ -103,7 +104,9 @@ To Get started in root directory:
 ```sh
 gem install bundler
 ```
+
 - Then run:
+
 ```sh
 bundle install
 ```
@@ -111,23 +114,26 @@ bundle install
 ### Run tests
 
 To run tests, run the following command:
+
 - Run in the terminal:
 
 ```sh
 gem install rspec
 ```
+
 - Then run
+
 ```sh
 rspec spec/solver_spec.rb
 ```
 
 ### Usage
+
 To run the project, execute the following command:
 
 ```sh
   rails server
 ```
-
 
 <!-- AUTHORS -->
 

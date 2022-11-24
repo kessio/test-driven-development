@@ -100,32 +100,31 @@ https://github.com/kessio/test-driven-development```
 
 To Get started in root directory:
 
-````
-
+```sh
 gem install bundler
-
 ```
-Then run:
-```
-
+- Then run:
+```sh
 bundle install
-
-`````
+```
 
 ### Run tests
 
 To run tests, run the following command:
 - Run in the terminal:
 
-```
+```sh
 gem install rspec
 ```
-- Then run rspec spec/solver_spec.rb
-### Usage
+- Then run
+```sh
+rspec spec/solver_spec.rb
+```
 
+### Usage
 To run the project, execute the following command:
 
-````sh
+```sh
   rails server
 ```
 
@@ -196,4 +195,4 @@ This project is [MIT](./LICENSE) licensed.
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-`````
+````

@@ -9,6 +9,4 @@ describe Solver do
           end
         end
       end
-
-
 end

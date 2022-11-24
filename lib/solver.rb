@@ -1,6 +1,5 @@
 class Solver
-    def factorial(n)
-        if n == 0
-            return 1
+    def self.factorial(n)
+        return 1 if n == 0
     end
 end

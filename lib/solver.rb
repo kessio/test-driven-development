@@ -13,11 +13,11 @@ class Solver
   end
 
   def self.fizzbuzz(num)
-    raise ArgumentError, 'Only accepts an integer' if n.class != Integer
-    return 'fizzbuzz' if (num % 3).zero? && (n % 5).zero?
+    raise ArgumentError, 'Only accepts an integer' if num.class != Integer
+    return 'fizzbuzz' if (num % 3).zero? && (num % 5).zero?
     return 'fizz' if (num % 3).zero?
     return 'buzz' if (num % 5).zero?
 
-    n.to_s
+    num.to_s
   end
 end

@@ -11,5 +11,6 @@ class Solver
     end
 
     def self.fizzbuzz(n)
+      
     end
 end

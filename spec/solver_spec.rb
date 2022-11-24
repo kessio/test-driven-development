@@ -40,9 +40,10 @@ describe Solver do
 
     describe ".fizzbuzz" do
 
-        context "takes integer and return a string" do
-            it "returns a string" do
-                expect(Solver.fizzbuzz(1)).to be_a(String)
+        context "only accepts an integer" do
+            it "raises an error" do
+                expect{Solver.fizzbuzz("hello")}.to raise_error(ArgumentError)
             end
+        end
     end
 end

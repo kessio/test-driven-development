@@ -15,5 +15,11 @@ describe Solver do
                 expect{Solver.factorial(-1)}.to raise_error(ArgumentError)
             end
             end
+
+        context "factorial of 5 is 120" do
+            it "returns 120" do
+                expect(Solver.factorial(5)).to eq(120)
+            end
+        end
     end
 end

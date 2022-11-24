@@ -65,8 +65,8 @@ describe Solver do
         end
 
         context "number not divisible by 3 or 5" do
-            it "returns number" do
-                expect(Solver.fizzbuzz(7)).to eq(7)
+            it "returns '7'" do
+                expect(Solver.fizzbuzz(7)).to eq("7")
             end
         end
     end
